@@ -5,5 +5,8 @@
 ### Availability: Open to Cloud/DevOps Engineering roles and platform support projects.
 
 
+# Technologies
+### Coming soon 
+
 ## Articles
 - [Bash Scripts for Java Setup, Process Management & Node.js Deployment](https://medium.com/@monyemelonu/bash-scripts-for-java-setup-process-management-node-js-deployment-b72b2ba04938)
