@@ -4,6 +4,8 @@
 ### Fun Fact: I love football, and i am a legend playing Fifa.
 ### Availability: Open to Cloud/DevOps Engineering roles and platform support projects.
 
+# Feature Projects
+#### Still in construction
 
 # Technologies
 ### Coming soon 
