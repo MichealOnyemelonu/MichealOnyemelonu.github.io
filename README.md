@@ -1,4 +1,4 @@
-# Welcome to my GitHub Profile, I'm Micheal Onyemelonu 😁
+# Welcome to my GitHub Profile, I'm Micheal Onyemelonu.
 ### A Cloud & DevOps Enthusiast passionate about building scalable infrastructure, automating workflows, and improving developer experience.
 ### Collaboration: Looking to collaborate on cloud-native projects, internal developer portals, and automation frameworks.
 ### Fun Fact: I love football, and I am a legend playing Fifa. I am enjoying this journey!
