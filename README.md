@@ -8,7 +8,7 @@
 #### Still in construction
 
 # Technologies
-### Coming soon 
+### Coming soon...
 
 ## Articles
 - [Bash Scripts for Java Setup, Process Management & Node.js Deployment](https://medium.com/@monyemelonu/bash-scripts-for-java-setup-process-management-node-js-deployment-b72b2ba04938)
