@@ -16,6 +16,39 @@
   --sans: 'IBM Plex Sans', -apple-system, sans-serif;
 
   --maxw: 980px;
+
+  /* DARK THEME */
+body.dark-mode {
+
+  --bg: #0B1220;
+  --surface: #111B2B;
+  --surface-2: #16223480;
+  --line: #22334A;
+  --line-soft: #1A2740;
+
+  --text: #E7EDF5;
+  --text-muted: #8CA0B3;
+  --text-dim: #56687D;
+
+  --accent: #E8A33D;
+  --accent-2: #C97F22;
+  --ok: #5FD3A2;
+}
+
+body.light-mode {
+  --bg: #ffffff;
+  --surface: #f5f5f5;
+  --surface-2: #eeeeee;
+  --line: #cccccc;
+  --line-soft: #dddddd;
+
+  --text: #222222;
+  --text-muted: #555555;
+  --text-dim: #777777;
+
+  --accent: #E8A33D;
+  --accent-2: #C97F22;
+  --ok: #2fa56e;
 }
 
 *{ box-sizing:border-box; }
@@ -240,7 +273,8 @@ a{ color:inherit; text-decoration:none; }
 }
 
 /* ============ Responsive ============ */
-@media (max-width: 860px){
+@media (max-width: 860px)
+{
   .hero{ grid-template-columns:1fr; padding-top:56px; }
   .hero-side{ order:-1; }
   .about-grid{ grid-template-columns:1fr; }
@@ -249,10 +283,13 @@ a{ color:inherit; text-decoration:none; }
 }
 
 /* ============ Motion & focus ============ */
-@media (prefers-reduced-motion: reduce){
+@media (prefers-reduced-motion: reduce)
+{
   html{ scroll-behavior:auto; }
   .pulse, .caret{ animation:none; }
 }
 a:focus-visible, .btn:focus-visible{
   outline:2px solid var(--accent); outline-offset:2px;
+}
+
 }

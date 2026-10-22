@@ -91,3 +91,35 @@ document.addEventListener("DOMContentLoaded", () => {
   container.innerHTML = "";
   typeAll(container, HERO_LINES, 0);
 });
+
+// Theme toggle button
+
+document.addEventListener("DOMContentLoaded", () => {
+  const themeToggleButton = document.getElementById("theme-toggle");
+
+  if (!themeToggleButton) return;
+
+  // Load saved theme
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "light") {
+    document.body.classList.add("light-mode");
+    themeToggleButton.textContent = "☀️";
+  } else {
+    document.body.classList.add("dark-mode");
+    themeToggleButton.textContent = "🌙";
+  }
+
+  // Toggle theme
+  themeToggleButton.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+
+    if (document.body.classList.contains("light-mode")) {
+      localStorage.setItem("theme", "light");
+      themeToggleButton.textContent = "☀️";
+    } else {
+      localStorage.setItem("theme", "dark");
+      themeToggleButton.textContent = "🌙";
+    }
+  });
+});
