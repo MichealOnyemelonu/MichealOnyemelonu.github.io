@@ -15,21 +15,174 @@
 <div class="grid-overlay" aria-hidden="true"></div>
 
 <header class="site-header">
-  <a href="#top" class="brand">M<span class="brand-dot">.</span>O</a>
-  <nav class="site-nav">
-    <a href="#about">about</a>
-    <a href="#stack">stack</a>
-    <a href="#projects">projects</a>
-    <a href="#writing">writing</a>
-    <a href="#contact">contact</a>
 
-    <button id="theme-toggle">
-      🌙
-    </button>
+    <a href="index.html" class="brand">
+        M<span class="brand-dot">.</span>O
+    </a>
 
-  </nav>
-  <a class="btn btn-ghost btn-small" href="https://github.com/MichealOnyemelonu" target="_blank" rel="noopener">
-    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-    github
-  </a>
+    <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        
+    </nav>
+
+    <div class="header-actions">
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="site-search"
+                placeholder="Search..."
+            >
+        </div>
+
+        <button id="theme-toggle">🌙</button>
+
+    </div>
+
 </header>
+
+<main>
+    <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="section-label">// project</p>
+    <h2 class="section-title">Featured projects</h2>
+    <div class="deploy-log">
+
+      <a class="deploy-card" href="https://michealonyemelonu.github.io/wdd130/wwr/index.html" target="_blank" rel="noopener">
+        <div class="deploy-head">
+          <span class="status-badge">deployed</span>
+          <span class="deploy-path">Rafting Company</span>
+        </div>
+        <p class="deploy-desc">project demonstrating front-end web development fundamentals, 
+          including semantic HTML, CSS styling, responsive layouts, navigation design, 
+          and user experience principles</p>
+        <div class="deploy-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Web Development</span>
+        </div>
+        <span class="deploy-link">Go to website →</span>
+      </a>
+
+      <a class="deploy-card" href="https://michealonyemelonu.github.io/wdd231/Project/smart_home/index.html" target="_blank" rel="noopener">
+        <div class="deploy-head">
+          <span class="status-badge">deployed</span>
+          <span class="deploy-path">Smart Home Basics</span>
+        </div>
+        <p class="deploy-desc">Smart home management application built with modern JavaScript, 
+          featuring interactive UI components, dynamic content rendering, responsive layouts, 
+          and user-focused design principles.</p>
+        <div class="deploy-tags">
+          <span>JavaScript</span>
+          <span>Responsive UI</span>
+          <span>Web Development</span>
+        </div>
+        <span class="deploy-link">Go to website →</span>
+      </a>
+
+      <a class="deploy-card" href="https://cse340-web-backend-development-u9rp.onrender.com/" target="_blank" rel="noopener">
+        <div class="deploy-head">
+          <span class="status-badge">deployed</span>
+          <span class="deploy-path"></span>
+        </div>
+        <p class="deploy-desc">Database-driven web application built with Node.js, Express, and PostgreSQL. 
+            Features MVC architecture, authentication, inventory management, CRUD operations, and deployment on Render</p>
+        <div class="deploy-tags">
+          <span>Authentication</span>
+          <span>Deployment</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>PostgreSQL</span>
+          <span>Render</span>
+          <span>Web Development</span>
+        </div>
+        <span class="deploy-link">Go to website →</span>
+      </a>
+
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-grid">
+
+        <div class="footer-brand">
+            <h3>
+                M<span class="brand-dot">.</span>O
+            </h3>
+
+            <p>
+                Software Developer, Cloud & DevOps Engineer building
+                secure, scalable, and automated solutions.
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Explore</h4>
+
+            <a href="#top">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>More</h4>
+
+            <a href="projects.html">Portfolio</a>
+            <a href="https://github.com/MichealOnyemelonu" target="_blank">
+                GitHub
+            </a>
+            <a href="#">Open Source</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>Connect</h4>
+
+            <div class="social-links">
+
+                <a href="https://github.com/MichealOnyemelonu" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://medium.com/@monyemelonu" target="_blank">
+                    <i class="fab fa-medium-m"></i>
+                </a>
+
+                <a href="mailto:your@email.com">
+                    ✉
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      
+      <div class="footer-copyright">
+        © 2026 Micheal Onyemelonu. Built with HTML, CSS & JavaScript.
+      </div>
+      
+      <div class="footer-clock">
+        <span class="clock-dot"></span>
+        <span id="current-time"></span>
+      </div>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
