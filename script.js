@@ -123,3 +123,37 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const searchInput = document.getElementById("site-search");
+
+    if (!searchInput) return;
+
+    searchInput.addEventListener("keypress", (e) => {
+
+        if (e.key === "Enter") {
+
+            const searchTerm =
+                searchInput.value.trim().toLowerCase();
+
+            const sections = document.querySelectorAll("section");
+
+            for (const section of sections) {
+
+                if (
+                    section.textContent
+                        .toLowerCase()
+                        .includes(searchTerm)
+                ) {
+                    section.scrollIntoView({
+                        behavior: "smooth"
+                    });
+
+                    break;
+                }
+            }
+        }
+    });
+
+});
