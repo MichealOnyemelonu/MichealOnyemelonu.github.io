@@ -174,3 +174,47 @@ function updateClock() {
 updateClock();
 
 setInterval(updateClock, 1000);
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const menuButton = document.getElementById("menu-toggle");
+    const mobileNav = document.getElementById("mobile-nav");
+
+    if (!menuButton || !mobileNav) return;
+
+    menuButton.addEventListener("click", () => {
+      
+        console.log("clicked");
+
+        mobileNav.classList.toggle("active");
+
+        menuButton.textContent =
+            mobileNav.classList.contains("active")
+                ? "✕"
+                : "☰";
+    });
+
+    document.querySelectorAll("#mobile-nav a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            mobileNav.classList.remove("active");
+            menuButton.textContent = "☰";
+
+        });
+
+    });
+
+});
+
+document.querySelectorAll("#mobile-nav a")
+    .forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            mobileNav.classList.remove("active");
+            menuButton.textContent = "☰";
+
+        });
+
+    });
